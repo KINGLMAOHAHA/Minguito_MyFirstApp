@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         myName = findViewById(R.id.txtInputName);
         myDisplay = findViewById(R.id.txtDisplay);
         myClick = findViewById(R.id.btnInput);
-        myClear = findViewById(R.id.btnInput);
+        myClear = findViewById(R.id.btnClear);
         myInput = findViewById(R.id.txtInputName);
 //myDisplay.setText("HELLO POGI!");
         myClick.setOnClickListener(new View.OnClickListener() {
